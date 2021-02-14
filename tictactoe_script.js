@@ -29,7 +29,7 @@ function bot(){
                 break;
             }else{
                 let tmp=sumArray(rsCheck);
-                if(!rsCheck.includes(2)) tmp-=1.5;
+                if(!rsCheck.includes(2)) tmp-=2;
                 if(tmp<min_sum){
                     min_sum=tmp;
                     o_pos=i;
