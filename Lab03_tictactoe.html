@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="tictactoe_script.js" defer></script>
+    <title>tic tac toe</title>
+    <style>
+        h1, p{
+            text-align: center;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .vert {
+            border-left: 4px solid black;
+            border-right: 4px solid black;
+        }
+        .hort {
+            border-top: 4px solid black;
+            border-bottom: 4px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <table>
+        <tr>
+            <td><img src="B.jpg" class="Blank" id="1" width="100"></td>
+            <td class="vert"><img src="B.jpg" class="Blank" id="2" width="100"></td>
+            <td><img src="B.jpg" id="3" class="Blank" width="100"></td>
+        </tr>
+        <tr>
+            <td class="hort"><img src="B.jpg" class="Blank" id="4"  width="100"></td>
+            <td class="vert hort"><img src="B.jpg" class="Blank" id="5" width="100"></td>
+            <td class="hort"><img src="B.jpg" id="6" class="Blank" width="100"></td>
+        </tr>
+        <tr>
+            <td><img src="B.jpg" id="7" class="Blank" width="100"></td>
+            <td class="vert"><img src="B.jpg" class="Blank" id="8" width="100"></td>
+            <td><img src="B.jpg" id="9" class="Blank" width="100"></td>
+        </tr>
+    </table>
+    <p id="result"><strong></strong></p>
+</body>
+</html>
